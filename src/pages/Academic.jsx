@@ -17,6 +17,8 @@ export default function Academic() {
           }
           b11={"Learn More"}
           b12={"Sign Up"}
+          url11="/about"
+          url12="/login"
         />
         <br />
         <hr />
@@ -126,6 +128,8 @@ export default function Academic() {
           btn={true}
           btn1={"Learn More"}
           btn2={"Sign Up >"}
+          url1="/academic"
+          url2="/login"
           img={
             "https://png.pngtree.com/png-clipart/20231015/original/pngtree-3d-customer-service-operator-png-illustration-png-image_13302774.png"
           }
@@ -140,6 +144,8 @@ export default function Academic() {
           btn={true}
           b11={"Apply"}
           b12={"Learn More"}
+          url1="/contact"
+          url2="/about"
         />
 
         <FAQ />

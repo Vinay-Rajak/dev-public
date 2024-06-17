@@ -9,6 +9,8 @@ export default function Opportunities({
   btn = true,
   b11 = null,
   b12 = null,
+  url11 = null,
+  url12 = null,
 }) {
   return (
     <>
@@ -20,7 +22,7 @@ export default function Opportunities({
             <h1>{heading} </h1>
             <p>{para}</p>
           </div>
-          <Btn btn={btn} b11={b11} b12={b12} />
+          <Btn btn={btn} b11={b11} b12={b12} url1={url11} url2={url12} />
         </div>
       ) : (
         <div className="m-4 my-22  sm:m-4 md:px-20 md:mt-10 sm:flex sm:justify-between item-cemter">

@@ -1,11 +1,21 @@
+import { useNavigate } from "react-router-dom";
 export default function Touch() {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="text-center">
         <h2 className="text-base font-extrabold">Connect</h2>
         <h1 className="font-black">Get in Touch</h1>
         <p>Have a question? We'd love to hear from you.</p>
-        <form action="" className="">
+        <form
+          action=""
+          className=""
+          onSubmit={(e) => {
+            e.preventDefault();
+            navigate("/");
+          }}
+        >
           <input
             type="text"
             placeholder="Name"

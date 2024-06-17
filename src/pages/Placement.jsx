@@ -17,7 +17,6 @@ export default function Placement() {
           para={
             "Welcome to the Placement Cell, where we help you secure internships and job placements."
           }
-          img={""}
         />
 
         <Hero
@@ -30,6 +29,7 @@ export default function Placement() {
           img={
             "https://static.vecteezy.com/system/resources/previews/021/597/800/original/partnership-3d-render-icon-illustration-png.png"
           }
+          url2="/login"
         />
 
         <Cource
@@ -56,6 +56,8 @@ export default function Placement() {
           cardPara2={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
           btn1={"Learn More"}
           btn2={"Sign Up >"}
+          url1="/about"
+          url2="/login"
         />
 
         <Facility
@@ -90,6 +92,8 @@ export default function Placement() {
           btn={true}
           b11={"Register"}
           b12={"Contact"}
+          url1="/login"
+          url2="/contact"
         />
         <FAQ />
       </div>

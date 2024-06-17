@@ -24,7 +24,12 @@ export default function Success() {
               <h1>50%</h1> <p>Lorem ipsum dolor sit Mollitia, deleniti!</p>
             </div>
           </div>
-          <Btn b11="Learn More" b12="Apply Now >" />
+          <Btn
+            b11="Learn More"
+            b12="Apply Now >"
+            url1="/placement"
+            url2="/login"
+          />
         </div>
       </div>
       <br /> <hr />

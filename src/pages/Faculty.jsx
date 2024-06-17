@@ -64,7 +64,7 @@ export default function Faculty() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida.",
       socialMedia: true,
     },
-    /*{
+    {
       cardImg:
         "https://www.thefamouspeople.com/profiles/thumbs/mr-pete-49199-1.jpg",
       cardHeading: "Mr. Pete",
@@ -173,7 +173,7 @@ export default function Faculty() {
       cardPara:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida.",
       socialMedia: true,
-    },*/
+    },
   ];
   return (
     <>
@@ -287,6 +287,8 @@ export default function Faculty() {
           }
           btn1={"Learn More"}
           btn2={"Sign Up >"}
+          url1="/placement"
+          url2="/login"
         />
 
         <Discover
@@ -295,6 +297,8 @@ export default function Faculty() {
           btn={true}
           b11={"Connect"}
           b12={"Learn More "}
+          url1="/contact"
+          url2="/research"
         />
         <FAQ />
       </div>

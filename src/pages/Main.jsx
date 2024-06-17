@@ -19,6 +19,8 @@ export default function Main() {
         para=" Expore the exciting world of computer science and unlock your
         potential."
         img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Hbdg-RWW6dDPUArpUTsTp-KaZK6FcpfWFw&s"
+        url1="/about"
+        url2="/login"
       />
       <Facility
         heading="Exprience an Innovative Curriculum and Cutting-Edge Facility"
@@ -111,6 +113,8 @@ export default function Main() {
         at error ullam maiores blanditiis."
         btn1="Apply"
         btn2="Learn More >"
+        url1="login"
+        url2="/placement"
       />
       <Success />
       <Say />
@@ -119,6 +123,8 @@ export default function Main() {
         para={"Unlock endless possibilities with a CS degree"}
         b11={"Apply"}
         b12={"Learn More"}
+        url11="/login"
+        url12="/about"
       />
 
       <FAQ />

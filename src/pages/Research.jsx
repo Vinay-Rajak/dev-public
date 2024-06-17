@@ -117,7 +117,8 @@ export default function Research() {
             "https://cdn.dribbble.com/userupload/8369661/file/original-23545504aaa9e08d378c18245fbddb56.png?resize=400x0"
           }
           btn1={"Learn More"}
-          btn2={"Sign Up"}
+          // btn2={"Sign Up"}
+          url1="/about"
         />
         <Facility
           heading={
@@ -170,6 +171,8 @@ export default function Research() {
           img={
             "https://png.pngtree.com/png-vector/20190521/ourlarge/pngtree-illustration-research-and-development-the-concept-of-people-doing-analysis-can-png-image_1055906.jpg"
           }
+          url1="/student"
+          url2="/login"
         />
         <Cource
           title={"Innovators"}
@@ -185,6 +188,8 @@ export default function Research() {
             btn: "true",
             b11: "Learn More",
             b12: "Sign Up >",
+            url11: "/research",
+            url12: "/login",
           }}
           History={history}
         />
@@ -201,6 +206,8 @@ export default function Research() {
           H2="Research Opportunities"
           para="Discover how you can collaborate with our department and make a difference."
           img="https://cdn3d.iconscout.com/3d/premium/thumb/man-doing-research-for-innovative-ideas-10522786-8539020.png?f=webp"
+          url1="/research"
+          url2="/login"
         />
         <Discover
           title={null}
@@ -209,6 +216,7 @@ export default function Research() {
           btn={true}
           b11="Subscribe"
           b12="Sign Up >"
+          url2="/login"
         />
         <FAQ />
       </div>

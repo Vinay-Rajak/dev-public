@@ -15,6 +15,7 @@ export default function Facility({
   btn = false,
   btn1 = null,
   btn2 = null,
+  url1=null,url2=null,
 }) {
   return (
     <>
@@ -41,7 +42,7 @@ export default function Facility({
             </div>
           )}
           {children}
-          {btn && <Btn b11={btn1} b12={btn2} />}
+          {btn && <Btn b11={btn1} b12={btn2} url1={url1} url2={url2} />}
         </div>
 
         <div className=" md:w-[30%]  ">

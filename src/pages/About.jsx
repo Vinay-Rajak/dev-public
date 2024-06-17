@@ -16,6 +16,10 @@ export default function About() {
       b11: "View",
       b12: "Download",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAj_u-LJhLyNZvTvevyDvQ-ZipLn8_6HsX7A&s",
+      url11: "",
+      url12: "",
+      url21: "",
+      url22: "",
     },
     {
       date: "2003",
@@ -24,6 +28,10 @@ export default function About() {
       b11: "View",
       b12: "Download",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTshnxHnTBzCP2F0lN5U3M03BErqnUtRiz_xg&s",
+      url11: null,
+      url12: "",
+      url21: "",
+      url22: "",
     },
     {
       date: "2005",
@@ -32,6 +40,11 @@ export default function About() {
       b11: "View",
       b12: "Download",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk1hJwVIWxCkv8rbsEJ_QEIjUfWlb_VFtJDg&s",
+
+      url11: "",
+      url12: "",
+      url21: "",
+      url22: "",
     },
   ];
   return (
@@ -42,6 +55,8 @@ export default function About() {
           H2="Innovators"
           para="Welcome to the CSE department,where we inspire and educate the next generation of innovators."
           img={null}
+          url1="/research"
+          url2="/login"
         />
         <Facility
           title="Innovate"
@@ -56,6 +71,7 @@ export default function About() {
           btn={true}
           btn1="Learn More"
           btn2="Join Us >"
+          url2="/login"
         />
         <Cource
           title="Innovate"
@@ -73,6 +89,8 @@ export default function About() {
           cardPara3="Our rigorous curriculum and dedicated faculty ensure that our students receive a world-class education, equipping them with the skills and knowledge to excel in their careers."
           btn1="Learn More"
           btn2="Sign Up >"
+          url1="/research"
+          url2="/login"
         />
         <Facility
           title="Innovate"
@@ -87,6 +105,8 @@ export default function About() {
           btn={true}
           btn1="Learn More"
           btn2="Sign Up >"
+          url1="/placement"
+          url2="/login"
         />
         <Cource
           title="Innovate"
@@ -114,6 +134,8 @@ export default function About() {
             btn: true,
             b11: "Learn More",
             b12: "Sign Up >",
+            url11: "/about",
+            url12: "/login",
           }}
           History={history}
           Footer={{
@@ -123,6 +145,8 @@ export default function About() {
             btn: true,
             b11: "Learn More",
             b12: "Sign Up >",
+            url11: "/about",
+            url12: "/login",
           }}
         />
 
@@ -145,6 +169,8 @@ export default function About() {
           para={"Explore our programs, research, and faculty expertise."}
           b11={"Learn More"}
           b12={"Get Involved"}
+          url11="/about"
+          url12="/research"
         />
         <br />
         <hr />
@@ -160,6 +186,8 @@ export default function About() {
           img={
             "data:image/jpeg;base64,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"
           }
+          url1="/about"
+          url2="/login"
         />
       </div>
     </>

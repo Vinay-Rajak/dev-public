@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Btn from "./Btn";
 import Card from "./Card";
 
@@ -21,8 +22,13 @@ export default function Cource({
   socialMedia = false,
   btn1,
   btn2,
+  url1 = null,
+  url2 = null,
   CardObj,
 }) {
+  let [num, setNum] = useState(6);
+  console.log(num);
+
   return (
     <>
       <div className="m-4 sm:px-4">
@@ -62,23 +68,47 @@ export default function Cource({
             </>
           ) : (
             <>
-              {CardObj.map((items) => {
+              {CardObj.map((items, index) => {
                 return (
-                  <Card
-                    key={items.cardHeading}
-                    img={items.cardImg}
-                    heading={items.cardHeading}
-                    subHeading={items.cardSubHeading}
-                    para={items.cardPara}
-                    socialMedia={items.socialMedia}
-                  />
+                  index < num && (
+                    <Card
+                      key={items.cardHeading}
+                      img={items.cardImg}
+                      heading={items.cardHeading}
+                      subHeading={items.cardSubHeading}
+                      para={items.cardPara}
+                      socialMedia={items.socialMedia}
+                    />
+                  )
                 );
               })}{" "}
             </>
           )}
         </div>
         <div className="flex justify-center my-4">
-          {btn1 && <Btn b11={btn1} b12={btn2} />}
+          {CardObj == null ? null : (
+            <>
+              {" "}
+              {num == 6 ? (
+                <button
+                  className="mt-8 p-2 px-4 m-2 border border-slate-900 "
+                  onClick={() => setNum(CardObj.length)}
+                >
+                  {" "}
+                  Show More{" "}
+                </button>
+              ) : (
+                <button
+                  className="mt-8  p-2 px-4 m-2 border border-slate-900 "
+                  onClick={() => setNum(6)}
+                >
+                  {" "}
+                  Show less
+                </button>
+              )}
+            </>
+          )}
+          {btn1 && <Btn b11={btn1} b12={btn2} url1={url1} url2={url2} />}
         </div>
       </div>
       <br />
