@@ -10,7 +10,7 @@ import Research from "./pages/Research";
 import Academic from "./pages/Academic";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
-
+// this the app component
 export default function App() {
   return (
     <>
