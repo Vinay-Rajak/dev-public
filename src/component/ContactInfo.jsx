@@ -11,8 +11,8 @@ export default function ContactInfo({
       <br />
       <hr />
       <br />
-      <div className=" p-2 sm:p-4 sm:flex sm:justify-center item-center md:py-8  ">
-        <div className="p-4 sm:w-[30%]">
+      <div className=" p-2 sm:p-4 sm:flex sm:justify-center item-center md:py-8 test-center ">
+        <div className=" text-center p-4 sm:w-[30%]">
           <EmailOutlinedIcon className="mb-4 ml-2 scale-150" />
           <h1>Email</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -26,7 +26,7 @@ export default function ContactInfo({
             {mail}{" "}
           </a>
         </div>
-        <div className="p-4 sm:w-[30%]">
+        <div className="text-center p-4 sm:w-[30%]">
           <LocalPhoneOutlinedIcon className="mb-4 ml-2 scale-150" />
           <h1>Phone</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -39,7 +39,7 @@ export default function ContactInfo({
             {phone}{" "}
           </a>
         </div>
-        <div className="p-4 sm:w-[30%]">
+        <div className="text-center p-4 sm:w-[30%]">
           <LocationOnOutlinedIcon className="mb-4 ml-2 scale-150" />
           <h1>Office</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

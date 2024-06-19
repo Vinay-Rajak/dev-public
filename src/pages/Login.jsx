@@ -4,10 +4,12 @@ import Facility from "../component/Facility";
 import Hero from "../component/Hero";
 import Touch from "../component/Touch";
 import Background from "../component/Background";
+import placementData from "../component/placementData";
 
 export default function Login() {
   return (
     <>
+      <placementData />
       <div className=" bg-gray-50">
         <br /> <br />
         <Discover
@@ -23,6 +25,7 @@ export default function Login() {
         <br />
         <hr />
         <br />
+        <Touch />
         <Hero
           H1={"Join our community "}
           H2={"today!"}
@@ -33,8 +36,6 @@ export default function Login() {
             "https://t3.ftcdn.net/jpg/06/65/12/60/360_F_665126052_gII75s7pJNJ8fL0oxfaQ1weIxNH3KGnB.jpg"
           }
         />
-        <Touch />
-        <FAQ />
         <Background
           heading={"Need help with registration or login?"}
           para={
@@ -47,6 +48,7 @@ export default function Login() {
           btn2={"Support"}
         />
       </div>
+      <FAQ />
     </>
   );
 }

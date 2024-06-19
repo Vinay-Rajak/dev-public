@@ -11,6 +11,7 @@ export default function Placement() {
       <div className=" bg-gray-50">
         <br />
         <br />
+
         <Hero
           title={"Empower"}
           H1={"Unlock Your Potential"}

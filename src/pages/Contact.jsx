@@ -180,7 +180,7 @@ export default function Contact() {
         <br />
         <Opportunities
           bool={false}
-          heading={"Welcome to"}
+          heading={"Welcome to "}
           para={
             "Get in touch with the CSE department to explore opportunities and learn more about our programs."
           }
@@ -194,7 +194,6 @@ export default function Contact() {
             "8966+3M7, Abbas Nagar, Gandhi Nagar, Bhopal, Madhya Pradesh 462033"
           }
         />
-        <Touch />
 
         <Cource
           title={"Discover"}
