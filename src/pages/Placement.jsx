@@ -4,6 +4,7 @@ import Hero from "../component/Hero";
 import Say from "../component/Say";
 import Discover from "../component/Discover";
 import FAQ from "../component/FAQ";
+import PlacementData from "../component/PlacementData";
 
 export default function Placement() {
   return (
@@ -11,7 +12,6 @@ export default function Placement() {
       <div className=" bg-gray-50">
         <br />
         <br />
-
         <Hero
           title={"Empower"}
           H1={"Unlock Your Potential"}
@@ -19,7 +19,6 @@ export default function Placement() {
             "Welcome to the Placement Cell, where we help you secure internships and job placements."
           }
         />
-
         <Hero
           H1={"Building Industry "}
           H2={"Partnerships for Successful "}
@@ -32,7 +31,6 @@ export default function Placement() {
           }
           url2="/login"
         />
-
         <Cource
           title={"Innovate"}
           H1={"Unlock Your Potential with Our "}
@@ -60,7 +58,9 @@ export default function Placement() {
           url1="/about"
           url2="/login"
         />
-
+        <PlacementData />
+        <br />
+        <hr />
         <Facility
           heading={
             "Unlock Your Potential with Our Comprehensive Placement Program"
@@ -83,7 +83,6 @@ export default function Placement() {
             "https://cdn3d.iconscout.com/3d/premium/thumb/business-person-holding-cv-5355164-4487280.png?f=webp"
           }
         />
-
         <Say />
         <Discover
           heading={"Unlock Your Career Potential Today"}

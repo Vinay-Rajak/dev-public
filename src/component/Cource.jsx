@@ -91,7 +91,7 @@ export default function Cource({
               {" "}
               {num == 6 ? (
                 <button
-                  className="mt-8 p-2 px-4 m-2 border border-slate-900 "
+                  className="mt-8 p-2 px-4 m-2 border border-slate-900 cursor-pointer"
                   onClick={() => setNum(CardObj.length)}
                 >
                   {" "}
@@ -99,7 +99,7 @@ export default function Cource({
                 </button>
               ) : (
                 <button
-                  className="mt-8  p-2 px-4 m-2 border border-slate-900 "
+                  className="mt-8  p-2 px-4 m-2 border border-slate-900 cursor-pointer"
                   onClick={() => setNum(6)}
                 >
                   {" "}

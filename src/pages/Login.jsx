@@ -4,12 +4,10 @@ import Facility from "../component/Facility";
 import Hero from "../component/Hero";
 import Touch from "../component/Touch";
 import Background from "../component/Background";
-import placementData from "../component/placementData";
 
 export default function Login() {
   return (
     <>
-      <placementData />
       <div className=" bg-gray-50">
         <br /> <br />
         <Discover

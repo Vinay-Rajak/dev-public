@@ -1,5 +1,5 @@
 export default function FeedBack({
-  rating,
+  rating = null,
   pImg = null,
   para = null,
   pName,
@@ -8,7 +8,7 @@ export default function FeedBack({
   return (
     <>
       <div className="p-2  m-auto text-center ">
-        <h1 className="text-base font-black ">Rating- {rating}</h1>
+        {rating && <h1 className="text-base font-black ">Rating- {rating}</h1>}
         {para && <p className="text-sm font-extrabold my-4">{para}</p>}
         <div className="flex w-[100%] ">
           <div className="flex item-center justify-center w-[100%] ">
@@ -20,9 +20,9 @@ export default function FeedBack({
                 alt="profile-img"
               />
             )}
-            <div className="mx-2 pr-2 border-r-2 border-gray-500">
+            <div className="mx-2 pr-2 ">
               <h1 className="text-sm font-extrabold">{pName}</h1>
-              <p className="text-sm">{`Software Engineer, ${pCompany} Company`}</p>
+              <p className="text-sm">{`Software Engineer, ${pCompany} Pvt. Lmt.`}</p>
             </div>
           </div>
           <div></div>
