@@ -11,8 +11,8 @@ function BasicExample() {
         <Navbar.Brand>
           {" "}
           <NavLink to="/" className="text-gray-900 font-black no-underline">
+            Dev Public School{" "}
             {" "}
-            UIT-RGPV{" "}
           </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
