@@ -15,8 +15,8 @@ export default function Main() {
       <Hero
       
         H1="Welcome"
-        H1="to"
-        H1="Dev Publice"
+        H2="to"
+        H3="Dev Public"
         para=" Expore the exciting world of knowledge and unlock your
         potential."
         img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Hbdg-RWW6dDPUArpUTsTp-KaZK6FcpfWFw&s"
