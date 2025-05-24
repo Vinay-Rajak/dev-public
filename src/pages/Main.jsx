@@ -13,9 +13,9 @@ export default function Main() {
   return (
     <div className=" bg-gray-50">
       <Hero
-        H1="  Welcome to the Dev"
-        H2="Public High Secondary"
-        H3="School!"
+        H1="  Welcome"
+        H2="to"
+        H3="Dev Publice"
         para=" Expore the exciting world of knowledge and unlock your
         potential."
         img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Hbdg-RWW6dDPUArpUTsTp-KaZK6FcpfWFw&s"
