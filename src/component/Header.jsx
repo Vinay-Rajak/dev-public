@@ -11,7 +11,7 @@ function BasicExample() {
         <Navbar.Brand>
           {" "}
           <NavLink to="/" className="text-gray-900 font-black no-underline">
-            Dev Public School{" "}
+            Dev Public{" "}
             {" "}
           </NavLink>
         </Navbar.Brand>
